@@ -1,0 +1,27 @@
+.navbarSupportedContent{
+    text-align: right;
+}
+
+#topbg{
+    background-image: url(landscape.jpg);
+    background-size: cover;
+}
+
+h2,h3{
+    text-align: center;        
+}
+
+.fp{
+    background-color: #78CFBF;
+    color: white;
+}
+
+.sp{
+    background-color: #3EC6E0;
+    color: white;
+}
+
+.pp{
+    background-color: #E3536C;
+    color: white;
+}
