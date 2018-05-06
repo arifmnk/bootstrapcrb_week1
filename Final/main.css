@@ -1,5 +1,6 @@
 .navbarSupportedContent{
-    text-align: right;
+    padding-right: 0;
+    padding-left: auto;
 }
 
 #topbg{
