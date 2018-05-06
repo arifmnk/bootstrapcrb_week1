@@ -1,6 +1,6 @@
 .navbarSupportedContent{
-    padding-right: 0;
-    padding-left: auto;
+    padding-right: 0 !important;
+    padding-left: auto !important;
 }
 
 #topbg{
