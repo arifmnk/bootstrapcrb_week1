@@ -6,10 +6,15 @@
 #topbg{
     background-image: url(landscape.jpg);
     background-size: cover;
+    height: 700px;
 }
 
 h2,h3{
     text-align: center;        
+}
+
+#tableprice{
+    margin: 0% 10%;
 }
 
 .fp{
