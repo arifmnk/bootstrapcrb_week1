@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
 
-<!-- Local Assets -->
+        <!-- Local Assets -->
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'>
         <!-- Material Icons CSS -->
@@ -34,95 +34,131 @@
         <!-- Creative CSS -->
         <link href="assets/css/skins/creative.css" rel="stylesheet">
 
-<!-- Local Assets End -->
+        <!-- Local Assets End -->
 
+    </head>
 
-</head>
-<body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Company Name</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>              
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link menu-right" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link menu-right" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown menu-right">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+    <body id="top" class="has-header-search">
+
+        <!-- Header Start -->
+        <header id="header" class="tt-nav transparent-header nav-border-bottom">
+            
+            <div class="header-sticky light-header">
+                
+                <div id="materialize-menu" class="menuzord">
+                    
+                    <!-- Company Name Start -->
+                    <a class="navbar-brand" href="#">Company Name</a>
+                    <!-- Company Name Ends -->
+
+                    <!-- Menu Start -->
+                    <ul class="menuzord-menu pull-right light">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="javascript:void(0)">Dropdown</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li><a href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Menu Ends -->
+
                 </div>
-            </li>
-            </ul>
-        </div>
-    </nav>
-    <div style="text-align: center" id="topbg" class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-            <button class="btn btn-light button-transparent" style="opacity: 50%;">Sign In</button>
-            <button class="btn btn-primary " type="submit">Sign Up</button>
-        </div>
-    </div>
-    
 
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <img class="img-fluid" src="mock_ipad.jpg" alt="ipad">
             </div>
-            <div class="col-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum perspiciatis iure blanditiis a pariatur non accusamus veniam repellendus recusandae, minima mollitia velit debitis minus eos doloremque numquam nihil. Soluta, tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti minima at nulla dolorum dolor veritatis fuga aut ducimus animi vitae numquam mollitia reprehenderit, dignissimos, consequuntur tempore officiis dolorem similique ipsam?</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sed aspernatur consectetur doloremque! Iure inventore, voluptatibus quis exercitationem cumque sequi molestias amet perspiciatis facere eius vitae tempora culpa iusto velit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis maxime magnam corporis minima tenetur illo harum quidem sit? Quibusdam aut perferendis eos cum ducimus reprehenderit praesentium aliquid voluptates facere dignissimos?</p>
-            </div>
-            <div class="col-6">
-                <img class="img-fluid" src="mock_nexus.jpg" alt="nexus">
-            </div>
-        </div>
-    </div>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div>
 
-    <h2>Price Table</h2>
-    <br>
-    <div class="row">
-        <div class="col-12"></div>
-        <table id="tableprice" style="text-align: center" class="table">
-            <thead>
-                <tr>
-                    <th class="fp">Free Plan</th>
-                    <th class="sp">Standard Plan</th>
-                    <th class="pp">Premium Plan</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="fp">$0</td>
-                    <td class="sp">$99</td>
-                    <td class="pp">$999</td>
-                </tr>
-            </tbody>
-        </table>
+        </header>
+        <!-- Header Ends -->
+        
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display:none;">
+            <a class="navbar-brand" href="#">Company Name</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>              
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link menu-right" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-right" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown menu-right">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div style="text-align: center" id="topbg" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Fluid jumbotron</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                <button class="btn btn-light button-transparent" style="opacity: 50%;">Sign In</button>
+                <button class="btn btn-primary " type="submit">Sign Up</button>
+            </div>
         </div>
-    </div>
-</body>
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img class="img-fluid" src="mock_ipad.jpg" alt="ipad">
+                </div>
+                <div class="col-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum perspiciatis iure blanditiis a pariatur non accusamus veniam repellendus recusandae, minima mollitia velit debitis minus eos doloremque numquam nihil. Soluta, tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti minima at nulla dolorum dolor veritatis fuga aut ducimus animi vitae numquam mollitia reprehenderit, dignissimos, consequuntur tempore officiis dolorem similique ipsam?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sed aspernatur consectetur doloremque! Iure inventore, voluptatibus quis exercitationem cumque sequi molestias amet perspiciatis facere eius vitae tempora culpa iusto velit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis maxime magnam corporis minima tenetur illo harum quidem sit? Quibusdam aut perferendis eos cum ducimus reprehenderit praesentium aliquid voluptates facere dignissimos?</p>
+                </div>
+                <div class="col-6">
+                    <img class="img-fluid" src="mock_nexus.jpg" alt="nexus">
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Fluid jumbotron</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
+
+        <h2>Price Table</h2>
+        <br>
+        <div class="row">
+            <div class="col-12"></div>
+            <table id="tableprice" style="text-align: center" class="table">
+                <thead>
+                    <tr>
+                        <th class="fp">Free Plan</th>
+                        <th class="sp">Standard Plan</th>
+                        <th class="pp">Premium Plan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fp">$0</td>
+                        <td class="sp">$99</td>
+                        <td class="pp">$999</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </body>
 </html>
