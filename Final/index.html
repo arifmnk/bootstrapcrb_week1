@@ -20,7 +20,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>              
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav kanangile" style="float: right !important; margin-right: 0px !important;">
             <li class="nav-item active">
                 <a class="nav-link menu-right" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -43,8 +43,8 @@
     </nav>
     <div style="text-align: center" id="topbg" class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-4" style="color: white">Fluid jumbotron</h1>
+            <p class="lead" style="color: white">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
             <button class="btn btn-light button-transparent" style="opacity: 50%;">Sign In</button>
             <button class="btn btn-primary " type="submit">Sign Up</button>
         </div>
@@ -72,30 +72,32 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p class="lead" >This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
     </div>
 
-    <h2>Price Table</h2>
-    <br>
-    <div class="row">
-        <div class="col-12"></div>
-        <table id="tableprice" style="text-align: center" class="table">
-            <thead>
-                <tr>
-                    <th class="fp">Free Plan</th>
-                    <th class="sp">Standard Plan</th>
-                    <th class="pp">Premium Plan</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="fp">$0</td>
-                    <td class="sp">$99</td>
-                    <td class="pp">$999</td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="container" id="pricetable">
+        <h2>Price Table</h2>
+        <br>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 nopad">
+                <table id="tableprice" style="text-align: center" class="table">
+                    <thead><tr><th class="fp ex">Free Plan</th></tr></thead>
+                    <tbody><tr><td class="fp">$0</td></tr></tbody>
+                </table>
+            </div>
+            <div class="col-lg-4 col-sm-12 nopad">
+                <table id="tableprice" style="text-align: center" class="table">
+                    <thead><tr><th class="sp ex">Standard Plan</th></tr></thead>
+                    <tbody><tr><td class="sp">$99</td></tr></tbody>
+                </table>
+            </div>
+            <div class="col-lg-4 col-sm-12 nopad">
+                <table id="tableprice" style="text-align: center" class="table">
+                    <thead><tr><th class="pp ex">Premium Plan</th></tr></thead>
+                    <tbody><tr><td class="pp">$999</td></tr></tbody>
+                </table>
+            </div>
         </div>
     </div>
 </body>

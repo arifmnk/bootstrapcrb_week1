@@ -1,10 +1,10 @@
-.navbarSupportedContent{
-    padding-right: 0 !important;
-    padding-left: auto !important;
+.kanangile {
+    float: right !important;
+    margin-right: 0px !important;
 }
 
 #topbg{
-    background-image: url(landscape.jpg);
+    background-image: url(img/landscape.jpg);
     background-size: cover;
     height: 700px;
 }
@@ -13,8 +13,17 @@ h2,h3{
     text-align: center;        
 }
 
-#tableprice{
+/* #tableprice{
     margin: 0% 10%;
+} */
+
+#pricetable{
+    margin: auto;
+}
+
+.ex{
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .fp{
@@ -31,3 +40,5 @@ h2,h3{
     background-color: #E3536C;
     color: white;
 }
+
+.nopad {padding-left: 0px !important; padding-right: 0 !important;}
