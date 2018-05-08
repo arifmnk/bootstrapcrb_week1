@@ -31,3 +31,7 @@ h2,h3{
     background-color: #E3536C;
     color: white;
 }
+
+.white-text{
+    color: #FFFFFF !important;
+}
